@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Make github unified diffs wide",
+  "version": "0.1",
+  "description": "Make github unified diffs wide",
+  "browser_action": {
+    "default_icon": "octocat-wide.png",
+	"default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+ ]
+}
